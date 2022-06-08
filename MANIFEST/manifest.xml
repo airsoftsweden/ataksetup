@@ -1,0 +1,18 @@
+<MissionPackageManifest version="2">
+   <Configuration>
+      <Parameter name="uid" value="ASS-TAK"/>
+      <Parameter name="name" value="Airsoftsweden.com standard ATAK Settings"/>
+      <Parameter name="onReceiveDelete" value="false"/>
+   </Configuration>
+   <Contents>
+   <!-- Much of this is shamelessly stolen from the Norwegian ATAK Team -->
+      <Content ignore="false" zipEntry="content/yellowteam.pref"/>
+      <Content ignore="false" zipEntry="content/blueteam.pref"/>
+      <Content ignore="false" zipEntry="content/redteam.pref"/>
+      <Content ignore="false" zipEntry="content/ESRI_Clarity_World_Imagery.xml"/>
+      <Content ignore="false" zipEntry="content/Google_Hybrid.xml"/>
+      <Content ignore="false" zipEntry="content/ASS-defaults.pref"/>
+      <Content ignore="false" zipEntry="content/ASS-TAK.p12"/>
+      <Content ignore="false" zipEntry="content/server.p12"/>
+   </Contents>
+</MissionPackageManifest>
